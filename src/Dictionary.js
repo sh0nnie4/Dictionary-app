@@ -48,7 +48,11 @@ export default function Dictionary() {
         <h1>What word do you want to look up?</h1>
         <section>
           <form onSubmit={handleSubmit}>
-            <input type="search" onChange={handleKeywordChange} />
+            <input
+              type="search"
+              placeholder="Search for a word..."
+              onChange={handleKeywordChange}
+            />
           </form>
           <div className="hint">
             suggested words: happy, yoga, flower, sunrise...
