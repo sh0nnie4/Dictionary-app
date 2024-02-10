@@ -14,7 +14,24 @@ export default function App() {
           <Dictionary />
         </main>
         <footer className="App-footer">
-          <small>Coded by Shontay Arrington</small>
+          <small>
+            Coded by Shontay Arrington, open-sourced on{" "}
+            <a
+              href="https://github.com/sh0nnie4/Dictionary-app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>{" "}
+            and hosted on{" "}
+            <a
+              href="https://new-dictionary-app.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Netlify
+            </a>
+          </small>
         </footer>
       </div>
     </div>
